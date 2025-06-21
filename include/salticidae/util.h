@@ -28,6 +28,7 @@
 #include <getopt.h>
 #include <unistd.h>
 #include <fcntl.h>
+
 #include "salticidae/config.h"
 
 typedef struct SalticidaeCError {
@@ -64,6 +65,8 @@ const char *salticidae_strerror(int code);
 #include <vector>
 #include <unordered_map>
 #include <functional>
+#include <stdexcept>
+
 #include "salticidae/ref.h"
 
 namespace salticidae {
