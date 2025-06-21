@@ -28,6 +28,7 @@
 #include <signal.h>
 
 #include "salticidae/event.h"
+#include "salticidae/endian.h"
 #include "salticidae/network.h"
 #include "salticidae/stream.h"
 
